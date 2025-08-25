@@ -122,6 +122,6 @@ Después de terraform apply, recibirás un email de confirmación de AWS SNS. Ha
 ⚠️ Asegúrate de eliminar manualmente el archivo creado en el bucket S3 si no se borra automáticamente. 
 
 📞 Contacto
-Nombre: Lewis Jonathan Muñoz Pérez
-Email: ljmunozp@gmail.com
+Nombre: Lewis Jonathan Muñoz Pérez.
+Email: ljmunozp@gmail.com.
 LinkedIn: https://www.linkedin.com/in/lewisihno/

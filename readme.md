@@ -68,9 +68,8 @@ Antes de aplicar la infraestructura, asegúrate de tener:
 ## 🚀 Cómo Desplegar
 
 ### 1. Clonar el repositorio
-
-git clone https://github.com/Lewisihno/Terraform-AWS-jikkosoft.git
-cd aws-assessment
+- git clone https://github.com/Lewisihno/Terraform-AWS-jikkosoft.git
+- cd Terraform-AWS-jikkosoft
 
 2. Configurar variables
 Crea un archivo terraform.tfvars:

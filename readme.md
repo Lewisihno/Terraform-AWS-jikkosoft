@@ -118,7 +118,7 @@ Después de terraform apply, recibirás un email de confirmación de AWS SNS. Ha
 
 🧹 Limpieza (Destruir Infraestructura)
 
-terraform destroy
+- terraform destroy
 ⚠️ Asegúrate de eliminar manualmente el archivo creado en el bucket S3 si no se borra automáticamente. 
 
 📞 Contacto

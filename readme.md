@@ -69,16 +69,16 @@ Antes de aplicar la infraestructura, asegúrate de tener:
 
 ### 1. Clonar el repositorio
 
-git clone https://github.com/tu-usuario/aws-assessment.git
+git clone https://github.com/Lewisihno/Terraform-AWS-jikkosoft.git
 cd aws-assessment
 
 2. Configurar variables
 Crea un archivo terraform.tfvars:
 
-aws_region      = "us-east-1"
-aws_access_key  = "TU_ACCESS_KEY"
-aws_secret_key  = "TU_SECRET_KEY"
-email           = "tu-email@ejemplo.com"
+- aws_region      = "us-east-1"
+- aws_access_key  = "TU_ACCESS_KEY"
+- aws_secret_key  = "TU_SECRET_KEY"
+- email           = "tu-email@ejemplo.com"
 
 ⚠️ No subas este archivo a Git. Añádelo al .gitignore. 
 
@@ -99,11 +99,11 @@ ssh -i ~/.ssh/jikkosoft-key ec2-user@10.0.3.10
 
 📁 Estructura del Proyecto
 
-├── main.tf               # Infraestructura principal
-├── terraform.tfvars      # Variables (no subido a Git)
-├── jikkosoft-key.pem     # Clave privada generada (no subida a Git)
-├── .gitignore            # Excluye credenciales y claves
-└── README.md             # Este archivo
+- main.tf               # Infraestructura principal
+- terraform.tfvars      # Variables (no subido a Git)
+- jikkosoft-key.pem     # Clave privada generada (no subida a Git)
+- .gitignore            # Excluye credenciales y claves
+- README.md             # Este archivo
 
 🛑 Buenas Prácticas Aplicadas
 

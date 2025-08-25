@@ -106,12 +106,13 @@ ssh -i ~/.ssh/jikkosoft-key ec2-user@10.0.3.10
 
 🛑 Buenas Prácticas Aplicadas
 
-✅ Claves SSH generadas y gestionadas con tls_private_key
-✅ Nombres únicos de recursos (usando random_id)
-✅ Uso de depends_on cuando es necesario
-✅ Seguridad: claves con chmod 600, SG restringidos
-✅ Automatización: copia de clave con null_resource y provisioner
-✅ Notificaciones: SNS + email para alertas
+- Claves SSH generadas y gestionadas con tls_private_key
+- Nombres únicos de recursos (usando random_id)
+- Uso de depends_on cuando es necesario
+- Seguridad: claves con chmod 600, SG restringidos
+- Automatización: copia de clave con null_resource y provisioner
+- Notificaciones: SNS + email para alertas
+
 📬 Notificaciones
 
 Después de terraform apply, recibirás un email de confirmación de AWS SNS. Haz clic en el enlace para activar las notificaciones de la alarma.

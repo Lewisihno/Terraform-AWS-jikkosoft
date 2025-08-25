@@ -15,5 +15,5 @@ variable "aws_secret_key" {
 
 variable "email" {
   type        = string
-  default     = "ljmunozp@gmail.com"
+  sensitive = true
 }
